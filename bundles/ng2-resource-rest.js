@@ -65,7 +65,7 @@ $__System.register("3", ["4", "5", "6"], function(exports_1, context_1) {
                 ], ResourceCRUD.prototype, "query", void 0);
                 __decorate([
                     ResourceAction_1.ResourceAction({
-                        path: '/{!id}'
+                        path: '/{!id}/'
                     }),
                     __metadata('design:type', Function)
                 ], ResourceCRUD.prototype, "get", void 0);
@@ -78,14 +78,14 @@ $__System.register("3", ["4", "5", "6"], function(exports_1, context_1) {
                 __decorate([
                     ResourceAction_1.ResourceAction({
                         method: http_1.RequestMethod.Put,
-                        path: '/{!id}'
+                        path: '/{!id}/'
                     }),
                     __metadata('design:type', Function)
                 ], ResourceCRUD.prototype, "update", void 0);
                 __decorate([
                     ResourceAction_1.ResourceAction({
                         method: http_1.RequestMethod.Delete,
-                        path: '/{!id}'
+                        path: '/{!id}/'
                     }),
                     __metadata('design:type', Function)
                 ], ResourceCRUD.prototype, "remove", void 0);

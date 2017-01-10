@@ -283,7 +283,7 @@ export function ResourceAction(methodOptions?: ResourceActionBase) {
 
           // noinspection TypeScriptValidateTypes
           requestObservable = methodOptions.responseInterceptor ?
-            methodOptions.responseInterceptor(requestObservable, req) :
+            methodOptions.responseInterceptor.bind(this)(requestObservable, req) :
             this.responseInterceptor(requestObservable, req);
 
 

@@ -7,5 +7,3 @@
 To use the module install the module using below command
 
 `npm install https://github.com/pycodi/ng2-resource-rest/ --save`
-
-
